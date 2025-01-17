@@ -12,4 +12,4 @@ theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
     {name = "Dotfiles", url = "https://github.com/stoicszip/dotfiles/", newTab = true},
     ] 
     backgroundVideo = "bg.mp4"
-    footer = "Powered by <a href='https://gohugo.io//' target='_blank'>Hugo</a>"
+    footer = "Powered by <a href='https://gohugo.io//' target='_blank'>hugo</a> <a href='https://github.com/mansoorbarri/glim-midnight/wiki//' target='_blank'>theme</a>"
