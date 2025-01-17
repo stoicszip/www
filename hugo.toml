@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://whatthe.zip'
 languageCode = 'en-us'
-title = 'test site'
+title = 'stoic'
 theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
 
 [params]
