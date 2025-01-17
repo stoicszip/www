@@ -4,7 +4,7 @@ title = 'stoic'
 theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
 
 [params]
-    title = "stoic"
+    title = "self-proclaimed mensa certfified idiot"
     phrases = ["Dotfiles", "Nixos", "Ryan gosling enjoyer", "'An idiot admires complexity, a genius admires simplicity.' - a smart guy"]
     links = [
     {name = "Github", url = "https://github.com/stoicszip", newTab = true},    
