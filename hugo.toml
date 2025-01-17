@@ -4,12 +4,12 @@ title = 'stoic'
 theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
 
 [params]
-    title = "self-proclaimed mensa certfified idiot"
+    title = "Self-proclaimed mensa certfified idiot."
     phrases = ["Dotfiles", "Nixos", "Ryan gosling enjoyer", "'An idiot admires complexity, a genius admires simplicity.' - a smart guy"]
     links = [
     {name = "Github", url = "https://github.com/stoicszip", newTab = true},    
     {name = "E-mail", url = "mailto:stoics@tuta.com"},    
-    {name = "Dotfiles", url = "https://github.com/stoicszip", newTab = true},
+    {name = "Dotfiles", url = "https://github.com/stoicszip/dotfiles/", newTab = true},
     ] 
     backgroundVideo = "bg.mp4"
     footer = "Powered by <a href='https://gohugo.io//' target='_blank'>Hugo</a>"
