@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'test site'
+theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
+
+[params]
+    title = "'An idiot admires complexity, a genius admires simplicity.' - a smart guy"
+    phrases = ["Dotfiles", "Nixos", "Ryan gosling enjoyer"]
+    links = [
+    {name = "Github", url = "https://github.com/stoicszip", newTab = true},    
+    {name = "E-mail", url = "mailto:stoics@tuta.com"},    
+    {name = "Dotfiles", url = "https://github.com/stoicszip", newTab = true},
+    ] 
+    backgroundVideo = "bg.mp4"
+    footer = "Made with  <a href='https://gohugo.io//' target='_blank'>Hugo</a>"
