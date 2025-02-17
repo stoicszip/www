@@ -1,6 +1,6 @@
 baseURL = 'https://whatthe.zip'
 languageCode = 'en-us'
-title = 'stoic'
+title = 'stoics'
 theme= 'risotto' # https://github.com/joeroe/risotto
 DefaultContentLanguage = "en"
 
