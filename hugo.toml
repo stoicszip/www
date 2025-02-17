@@ -2,16 +2,16 @@ baseURL = 'https://whatthe.zip'
 languageCode = 'en-us'
 title = 'stoic'
 theme= 'risotto' # https://github.com/joeroe/risotto
+DefaultContentLanguage = "en"
 
 [params]
 noindex = false
 
 [params.theme]
-palette = "base16-dark"
+palette = "tender"
 
-# Sidebar: about/bio
 [params.about]
-title = "stoics"
+title = "@stoicszip"
 description = "self-proclaimed mensa certfified linux enthusiast"
 
 [[params.socialLinks]]
@@ -53,3 +53,4 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
+
