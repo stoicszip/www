@@ -1,15 +1,55 @@
 baseURL = 'https://whatthe.zip'
 languageCode = 'en-us'
 title = 'stoic'
-theme = "glim-midnight" # https://github.com/mansoorbarri/glim-midnight/wiki
+theme= 'risotto' # https://github.com/joeroe/risotto
 
 [params]
-    title = "Self-proclaimed mensa certfified idiot."
-    phrases = ["Dotfiles", "Nixos", "Ryan gosling enjoyer", "'An idiot admires complexity, a genius admires simplicity.' - a smart guy"]
-    links = [
-    {name = "Github", url = "https://github.com/stoicszip", newTab = true},    
-    {name = "E-mail", url = "mailto:stoics@tuta.com"},    
-    {name = "Dotfiles", url = "https://github.com/stoicszip/dotfiles/", newTab = true},
-    ] 
-    backgroundVideo = "bg.mp4"
-    footer = "Powered by <a href='https://gohugo.io//' target='_blank'>hugo</a> <a href='https://github.com/mansoorbarri/glim-midnight/wiki//' target='_blank'>theme</a>"
+noindex = false
+
+[params.theme]
+palette = "base16-dark"
+
+# Sidebar: about/bio
+[params.about]
+title = "stoics"
+description = "self-proclaimed mensa certfified linux enthusiast"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/stoicszip"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:stoics@tuta.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
